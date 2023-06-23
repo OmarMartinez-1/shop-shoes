@@ -1,0 +1,73 @@
+.header {
+  grid-row: 1;
+  grid-column: 2/4;
+    width: auto;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr 1fr 0.2fr 1fr 0.1fr;
+    align-items: center;
+   
+  }
+  
+  .headerBanner {
+    all: unset;
+    display: grid;
+    grid-column: 2;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+  }
+  
+  .serchBarAndFillters {
+    grid-column: 4;
+    width: 410px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    justify-self: flex-end;
+    border-radius: 10px;
+  }
+  
+  .serchBar {
+    justify-self: flex-start;
+    width: 124px;
+    height: 24px;
+    border-style: none;
+    outline: none;
+  }
+  
+  .serchIcon {
+    justify-self: flex-start;
+    width: 20px;
+    height: 20px;
+    margin: 0px 36px 0px 15px;
+  }
+  
+  .filterIcon {
+    justify-self: flex-end;
+    margin-right: 15px;
+  }
+  
+  .iconAndBar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .notices {
+    grid-column: 6;
+    width: 179px;
+    height: 45px;
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  .profilePicture {
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+  }
