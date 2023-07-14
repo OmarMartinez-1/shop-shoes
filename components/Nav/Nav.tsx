@@ -1,3 +1,4 @@
+import { roboto } from '@/app/fonts'
 import styles from './nav.module.css'
 import Link from 'next/link'
 
@@ -31,7 +32,7 @@ export default function Nav() {
         <p className={styles.needHelp}>
           Need Help
         </p>
-        <p className={styles.aboutUs}>
+        <p className={`${styles.aboutUs} ${roboto.className}`}>
           About Account Management Ordering & Payment refund and FAQ
         </p>
 

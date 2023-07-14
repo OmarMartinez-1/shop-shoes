@@ -1,0 +1,72 @@
+.containerBanner {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.dotWhite {
+    min-width: 55px;
+    height: 100%;
+    border-radius: 55px;
+    background: #FFF;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.17);
+    overflow: hidden;
+}
+
+.dotWhite img {
+    margin-bottom: 1px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    position: relative;
+    top: -20%;
+}
+
+.sameLine h3 {
+    all: unset;
+    width: 65%;
+    color: #000;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.9em;
+}
+
+.sameLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4px;
+
+}
+
+.nameProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nameProduct p,
+.price {
+    all: unset;
+    color: #5C5C5C;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.price {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    line-height: 0.9em;
+}
+
+
+.nameProduct p {
+    display: flex;
+    align-items: center;
+}

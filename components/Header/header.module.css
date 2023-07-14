@@ -1,19 +1,15 @@
 .header {
-  grid-row: 1;
-  grid-column: 2/4;
+  grid-area: 1/1/1/7;
     width: auto;
     height: 10vh;
-    display: grid;
-    grid-template-columns: 0.1fr 1fr 1fr 1fr 0.2fr 1fr 0.1fr;
+    display: flex;
     align-items: center;
+    justify-content: space-around;
    
   }
   
   .headerBanner {
     all: unset;
-    display: grid;
-    grid-column: 2;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -21,47 +17,40 @@
   }
   
   .serchBarAndFillters {
-    grid-column: 4;
-    width: 410px;
+    width: 40%;
     height: 45px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background: #FFFFFF;
-    justify-self: flex-end;
+    justify-content: space-evenly;
+    background: #FFF;
     border-radius: 10px;
   }
   
   .serchBar {
-    justify-self: flex-start;
-    width: 124px;
+    width: 80%;
     height: 24px;
     border-style: none;
     outline: none;
+
   }
   
   .serchIcon {
-    justify-self: flex-start;
-    width: 20px;
-    height: 20px;
-    margin: 0px 36px 0px 15px;
+    width: 24px;
+    height: 24px;
   }
   
-  .filterIcon {
-    justify-self: flex-end;
-    margin-right: 15px;
-  }
-  
+ 
   .iconAndBar {
+    width: 85%;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    gap: 10%;
   }
   
   .notices {
-    grid-column: 6;
-    width: 179px;
+    width: 15%;
     height: 45px;
-    justify-self: flex-end;
     display: flex;
     justify-content: space-between;
    

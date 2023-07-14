@@ -42,18 +42,17 @@
 
 .needHelp {
   margin: 0.5rem 0 0 0;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   color: #016170;
+  text-align: center;
 }
 
 .aboutUs {
   width: 160px;
   width: 80%;
   height: auto;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -63,16 +62,12 @@
 }
 
 .customers {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Poppins';
+  padding: 10px;
+  text-align: center;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
-  line-height: 18px;
-  width: 113px;
-  height: 28px;
+
   border-radius: 9px;
   color: #016170;
   background-color: #D9F4FF;
@@ -97,10 +92,14 @@
   list-style: none;
   display: flex;
   align-items: center;
+  color: #5C5C5C;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 
 }
 
 .item svg {
   margin-right: 20px;
 }
-
